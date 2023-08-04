@@ -15,10 +15,10 @@ function putData(urlApi, dataUpdate) {
 };
 
 const dataUpdate = {
-    "title": "Pocahontas",
-    "price": 99
+    "title": "Nieves",
+    "price": 87
   };
 
-putData (`${API}/products/208`, dataUpdate)
+putData (`${API}/products/214`, dataUpdate)
 .then(response => response.json())
 .then(data => console.log(dataUpdate));
